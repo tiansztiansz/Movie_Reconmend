@@ -32,6 +32,10 @@ https://github.com/nginx/nginx => https://gitpod.io/#/github.com/nginx/nginx
 
 最后，你只需要按前面的 “如何使用” 的步骤运行即可
 
+## 网页截图
+<img src="./images/1.png">
+<img src="./images/2.png">
+
 ## 问题
 由于该算法没有保存模型，所以每次预测都要重新计算，导致程序运行时间长。并且在部署到公共端时，还会报错，错误如下：
 ```
