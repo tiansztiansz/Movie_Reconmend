@@ -23,14 +23,14 @@ python flask_app.py
 更多资料请参考 [Flask中文网](https://flask.net.cn/installation.html#id4)
 
 ## 在线预览
-当然，你也可以在网页端直接预览你只需要在上方的 URL 的 `https://` 后面添加 `gitpod.io/#/`
+当然，你也可以在网页端直接预览，你只需要在上方 URL 的 `https://` 后面添加 `gitpod.io/#/`
 
 例如：
 ```
 https://github.com/nginx/nginx => https://gitpod.io/#/github.com/nginx/nginx
 ```
 
-之后你只需要在前面的 “如何使用” 的步骤运行即可
+最后，你只需要按前面的 “如何使用” 的步骤运行即可
 
 ## 问题
 由于该算法没有保存模型，所以每次预测都要重新计算，导致程序运行时间长。并且在部署到公共端时，还会报错，错误如下：
