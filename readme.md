@@ -1,21 +1,23 @@
 # 简单电影推荐系统
-## 如何使用
-1、进入到项目最外层文件夹，在终端中输入如下命令，创建一个虚拟环境
+## 本地演示
+首先你需要下载本仓库到本地，然后输入以下命令：
+
+1. 进入到项目最外层文件夹，在终端中输入如下命令，创建一个虚拟环境
 ```
 py -3 -m venv venv
 ```
 
-2、输入如下命令，用于激活虚拟环境
+2. 输入如下命令，用于激活虚拟环境
 ```
 venv\Scripts\activate
 ```
 
-3、输入如下命令，用于安装所需依赖
+3. 输入如下命令，用于安装所需依赖
 ```
 pip install -r requirements.txt
 ```
 
-4、运行本地服务器，输入如下命令，并按照提示打开对应网址
+4. 运行本地服务器，输入如下命令，并按照提示打开对应网址
 ```
 python flask_app.py
 ```
@@ -29,8 +31,18 @@ python flask_app.py
 ```
 https://github.com/nginx/nginx => https://gitpod.io/#/github.com/nginx/nginx
 ```
+此时你应该可以看到一个 VS Code 界面的编辑器，在终端中输入以下命令：
 
-最后，你只需要按前面的 “如何使用” 的步骤运行即可
+
+1. 输入如下命令，用于安装所需依赖
+```
+pip install -r requirements.txt
+```
+
+2. 运行本地服务器，输入如下命令，并按照提示打开对应网址
+```
+python flask_app.py
+```
 
 ## 网页截图
 <img src="./images/1.png">
