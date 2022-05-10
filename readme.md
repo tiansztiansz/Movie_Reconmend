@@ -38,3 +38,12 @@ https://github.com/nginx/nginx => https://gitpod.io/#/github.com/nginx/nginx
 Internal Server Error
 The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application
 ```
+
+## 参考资料
+[Python机器学习（原书第3版）](https://weread.qq.com/web/bookDetail/b5432cc0724ad4a3b5413e1)
+
+[Python大数据分析与机器学习商业案例实战](https://weread.qq.com/web/bookDetail/f4e32d4071e1ec54f4e18f9)
+
+[提交文件到Github仓库](https://blog.csdn.net/stc1247679496/article/details/104269657)
+
+[黑马程序员Flask视频教程](https://www.bilibili.com/video/BV17W41177oE?p=10&spm_id_from=333.337.top_right_bar_window_history.content.click)
