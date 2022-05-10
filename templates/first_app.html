@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>First app</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+
+{% from "_formhelpers.html" import render_field %}
+
+<h1>请输入你喜欢的电影名。例如“阿甘正传（1994）”</h1>
+<div>
+<form method=post action="/hello">
+  <dl>
+	  {{ render_field(form.sayhello) }}
+  </dl>
+
+  <input type=submit value='猜你喜欢' name='submit_btn'>
+
+</form>
+<p>预测时间较长，请耐心等待</p>
+</div>
+  </body>
+</html>

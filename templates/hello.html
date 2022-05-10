@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title>First app</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+
+<h1>猜你喜欢：</h1>
+<div>
+  {% for n in name %}
+    {{ n }}<br>
+  {% endfor %}
+</div>
+
+
+  </body>
+</html>
