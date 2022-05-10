@@ -15,7 +15,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4、运行本地服务器，输入如下命令，并安装提示打开对应网址
+4、运行本地服务器，输入如下命令，并按照提示打开对应网址
 ```
 python flask_app.py
 ```
